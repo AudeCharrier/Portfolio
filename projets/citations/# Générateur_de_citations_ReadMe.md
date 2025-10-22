@@ -32,4 +32,4 @@ Ce projet combine **simplicité et interaction visuelle**, offrant une expérien
 Envie d'en savoir plus ? Intéressé.e par une alternance pour votre entreprise ? Ecrivez-moi !
 - **Email** : [charrier.aude@gmail.com](mailto:charrier.aude@gmail.com)  
 - **LinkedIn** : [Aude-Charrier-devweb](https://www.linkedin.com/in/aude-charrier-devweb/)  
-- **GitHub** : [Alda33](https://github.com/AudeCharrier/Portfolio/tree/main/)
+- **GitHub** : [AudeCharrier](https://github.com/AudeCharrier/)
