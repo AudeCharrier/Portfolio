@@ -11,27 +11,27 @@ J'ai ainsi renforcé mes compétences en manipulation dynamique du DOM, gestion 
 
 ## Projets
 
-### [ToDoList](./projets/todo_list)
+### [ToDoList](./todo_list)
 Application de gestion de tâches avec priorité, durée, domaine et deadline.  
 Pensée pour aider à mieux équilibrer ses domaines de vie.  
 **Techs** : HTML, CSS, JavaScript
 
 ---
 
-### [Galerie d’images](./projets/galerie)
+### [Galerie d’images](./galerie)
 Galerie interactive retraçant des moments de ma vie professionnelle.  
 Chaque image peut changer au survol, révélant plusieurs “couches” d’histoire.  
 **Techs** : HTML, CSS, JavaScript
 
 ---
 
-### [Formulaire de contact](./projets/formulaire)
+### [Formulaire de contact](./formulaire)
 Formulaire validé par regex, avec messages d’erreur contextualisés pour guider l’utilisateur.  
 **Techs** : HTML, CSS, JavaScript
 
 ---
 
-### [Générateur de citations](./projets/citations)
+### [Générateur de citations](./citations)
 Affichage aléatoire et temporisé de citations inspirantes avec effet de fondu.  
 **Techs** : HTML, CSS, JavaScript
 
@@ -48,3 +48,4 @@ Envie d'en savoir plus ? Intéressé.e par une alternance pour votre entreprise 
 - **LinkedIn** : [Aude-Charrier-devweb](https://www.linkedin.com/in/aude-charrier-devweb/)  
 
 - **GitHub** : [AudeCharrier](https://github.com/AudeCharrier/)
+
