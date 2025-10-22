@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+    <head>
+
+        <meta charset="utf-8">
+
+        <title>Projets | Aude Charrier - Future Dev'Web</title>
+
+        <link href="style_todolist.css" rel="stylesheet">
+        
+    </head>
+    
+    <body>
+        <header>
+            
+        </header>
+        <main>
+                     
+            <form>
+                <label for="tâche" class="obligatoire">*Entrez la tâche : </label>
+                <input type="text" placeholder="" id="tâche">
+                
+                <label for="domaine" class="obligatoire">Sélectionnez le domaine : </label>
+                <select id="domaine">
+                    <option value="">Domaine</option>
+                    <option value="Famille">Famille</option>
+                    <option value="Moi">Moi</option>
+                    <option value="Couple">Couple</option>
+                    <option value="Pro">Pro</option>
+                    <option value="Santé">Santé</option>
+                </select>
+                
+                <label for ="durée">Durée estimée :</label>
+                <input type="text" placeholder="" id="durée">
+                
+                <label for="deadline" class="obligatoire">*Date limite : </label>
+                <input type="date" placeholder="Date limite" id="deadline">
+                
+                <label for="priorité" class="obligatoire">*Sélectionnez la priorité :</label>
+                <select id="priorité">
+                    <option value="">Niveau de priorité</option>
+                    <option value="Haute">Haute</option>
+                    <option value="Moyenne">Moyenne</option>
+                    <option value="Basse">Basse</option>
+                </select>
+                
+                <div class="zone-submit">
+                    <p><em>(* : Champs obligatoires)</em></p>
+                    <input type="submit" value="Ajouter" id="ajouter">
+                </div>
+            </form>
+            
+            <div id="liste">
+                <h1>Ma to-do list</h1>
+            </div>
+            
+        </main>
+        <footer>
+            
+        </footer>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script src="todolist.js"></script>
+    </body>
+    
+    </html>

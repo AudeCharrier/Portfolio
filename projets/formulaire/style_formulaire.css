@@ -1,0 +1,111 @@
+* {
+    margin : 0;
+    padding:0;
+}
+
+/************************************************************************/
+/***************************** ZONES ************************************/
+
+body {
+    font-family: 'Segoe UI', 'Trebuchet', 'Helvetica', sans-serif;
+    font-size: 1rem;
+    text-align:justify;
+}
+main {
+    color: rgb(0, 0, 0);
+    width:75%;
+    margin:auto;
+}
+section {
+    height:auto;
+    background-color:white;
+}
+
+/****************************************************************************/
+/********************** MISES EN FORME TEXTE GENERAL ************************/
+
+p {
+    line-height:1.6rem;
+    margin:10px 0;
+}
+
+.boite-apropos {                     
+    color:black;
+    border-radius:10px;
+    box-shadow:3px 3px 0px black;
+    margin-top:20px;
+    padding:30px;
+    background-color:rgb(219,225,234);
+}
+
+.bouton {
+    text-align:center;
+    font-weight:bold;
+    border-radius:50px;
+    padding:15px;
+    margin:5px 0;
+}
+
+.cta {                            
+    display:block;
+    font-size:1.15em;
+    color:white;
+    width:270px;
+    margin:50px auto 0 auto;
+    background-color:rgb(35,63,104);
+    border:2px solid rgb(35,63,104);
+    transition:
+        background-color 0.5s,
+        color 0.5s;
+}
+.cta:hover {
+    text-decoration:none;
+    color:rgb(35,63,104);
+    background-color:white;
+}
+
+/****************************************************************************/
+/******************************* PAGE CONTACT ******************************/
+
+form {
+    width: 50%;
+    margin:auto;
+    padding:20px 40px;
+}
+
+label, input, textarea {
+    display:block;
+}
+input, textarea {
+    width:100%;
+    margin-bottom:15px;
+    min-height:40px;              /*pour textarea*/
+    border-radius:10px;
+    border:none;
+    background-color:rgba(255,255,255);
+}
+label {
+    margin: 10px 0 5px 0;
+}
+
+#message {
+    margin-bottom:20px;
+}
+
+#zone-submit {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+}
+#Envoyer {
+    width:30%;
+    padding:15px;
+    margin:10px 0 0 50px;
+    cursor:pointer;
+}
+
+.erreur {
+    color:red;
+    font-style:italic;
+}

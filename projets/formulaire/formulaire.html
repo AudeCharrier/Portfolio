@@ -1,0 +1,50 @@
+<html lang="fr">
+
+  <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Formulaire | Aude Charrier</title>
+        <link rel="stylesheet" href="style_formulaire.css">
+        
+  </head>
+    
+    <body>
+
+        <main>
+            <section>
+           
+               <form method="post" action="https://formspree.io/f/xovknvrk" class="boite-apropos">
+                
+                  <label for="nom" class="champs-obligatoires">*Nom : </label>
+                  <input type="text" placeholder="" id="nom" name="nom">
+                
+                  <label for="prenom" class="champs-obligatoires">*Prénom :</label>
+                  <input type="text" placeholder="" id="prenom" name="prenom">
+               
+                  <label for="email" class="champs-obligatoires">*Email :</label>
+                  <input type="email" placeholder="" id="email" name="email">
+                
+                  <label for="entreprise" class="champs-obligatoires">*Votre entreprise :</label>
+                  <input type="text" placeholder="" id="entreprise" name="entreprise">
+                
+                  <label for="message" class="champs-obligatoires">*Votre message :</label>
+                  <textarea maxlength="1000" rows="10" cols="20" placeholder="Max 1000 carac." id="message" name="message"></textarea>
+                                
+                <div id="zone-submit">
+                  <p><em>* Champs obligatoires</em></p>
+                  <input type="submit" id="Envoyer" value="Envoyer" class="bouton cta">
+                </div>
+
+              </form> 
+
+            </section>
+            
+        </main>
+           
+        <script src="formulaire.js"></script>
+        
+    </body>
+    
+</html>

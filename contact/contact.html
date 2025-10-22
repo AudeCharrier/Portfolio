@@ -1,0 +1,127 @@
+<html lang="fr">
+
+  <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Contact | Aude Charrier</title>
+        <link rel="stylesheet" href="../style.css">
+        
+  </head>
+    
+    <body>
+
+       <header>
+          <nav>
+                <a href="#ancre_haut"></a>
+
+                    <div class="menu">
+                        <a href = "../index.html">Accueil</a>
+                        <a href = "../a_propos/a_propos.html">A propos</a>
+                        <a href = "../projets/projets.html">Projets</a>
+                        <a href = "contact.html" class="page-active">Contact</a>
+                    </div>
+                </nav>
+                
+                <div class="chapeau">
+
+                    <h1><span class="titre">Aude Charrier</span><span class="sous-titre"> future web développeuse</span></h1>
+
+                    <div class="fond-couleur">
+                        <div class="accroche">
+                            <p>Vous cherchez une collaboratrice curieuse, motivée et constructive ?</p>
+                            <p>Bonne nouvelle : vous l’avez trouvée !</p>
+                        </div>             
+                        
+                        <div class="texte-simple">
+                            <p>Je crois dans les forces de rigueur, méthode et communication pour réussir tout projet d’équipe.</p>
+                            <p>Ce qui m’anime, c’est d’apprendre, partager et construire ensemble.</p>
+
+                            <p>Avec moi, vous gagnez :</p>
+                            <ul>
+                                <li>Les avantages de l’alternance (coût réduit, flexibilité)</li>
+                                <li>Une collaboratrice adaptable, prête à apprendre vos méthodes</li>
+                                <li>Des soft skills singuliers, hérités d’un parcours riche et varié </li>
+                            </ul>
+                        </div>
+
+                 <!--l'emplacement de l'ancre est un compromis. à cause de nav fixed, je ne peux pas remonter parfaitmeent en haut de la page-->
+                        <div class="accroche" id="ancre_haut">
+                            <p>Découvrez qui je suis au travers de ce portfolio... Bonne visite, et surtout : n'oubliez pas de m'écrire !</p> 
+                        </div>
+                    </div>
+                </div>
+                
+            </header>
+
+        <main>
+            <section class="contact">
+           
+              <h1>Contact</h1>
+
+              <div class="texte-contact">
+                <p>Vous souhaitez recevoir des <strong>informations complémentaires </strong>?</p>
+                <p><strong>Echanger</strong> sur mon parcours ?</p>
+                <p>Vous envisagez une <strong>alternance</strong> au sein de votre entreprise ?</p>
+                <p class="padding-top">C'est très simple : <strong>écrivez-moi</strong>, je serai ravie de vous répondre !</p>
+              </div>
+
+              <form method="post" action="https://formspree.io/f/xovknvrk" class="boite-general">
+                
+                  <label for="nom" class="champs-obligatoires">*Nom : </label>
+                  <input type="text" placeholder="" id="nom" name="nom">
+                
+                  <label for="prenom" class="champs-obligatoires">*Prénom :</label>
+                  <input type="text" placeholder="" id="prenom" name="prenom">
+               
+                  <label for="email" class="champs-obligatoires">*Email :</label>
+                  <input type="email" placeholder="" id="email" name="email">
+                
+                  <label for="entreprise" class="champs-obligatoires">*Votre entreprise :</label>
+                  <input type="text" placeholder="" id="entreprise" name="entreprise">
+                
+                  <label for="message" class="champs-obligatoires">*Votre message :</label>
+                  <textarea maxlength="1000" rows="10" cols="20" placeholder="Max 1000 carac." id="message" name="message"></textarea>
+                                
+                <div id="zone-submit">
+                  <p><em>* Champs obligatoires</em></p>
+                  <input type="submit" id="Envoyer" value="Envoyer" class="bouton cta">
+                </div>
+
+              </form> 
+
+            </section>
+
+            <section class="section-citations paire">
+                    
+                <div class="box-citations">
+                    <p class="phrase"></p>
+                    <p class="auteur"></p>
+                </div>
+
+            </section>
+
+        </main>
+    
+        <footer>
+                
+             <a href="contact.html#ancre_haut" class="icone-reseau ancre"><ion-icon name="arrow-up-circle-outline"></ion-icon></a>
+                    
+                <div class="menu-reseaux">
+                    <a href = "https://www.linkedin.com/in/aude-charrier-devweb/" target="_blank"> <img src ="../images/LinkedIn_icon.png" alt ="logo de linkedin"
+                            class="icone-reseau"></a>
+                    <a href="https://github.com/AudeCharrier/Portfolio" target="_blank"> <img src="../images/Github_icon.png" alt="logo de github"
+                                class="icone-reseau"></a>
+                </div>
+                            
+        </footer>
+    
+        <script src="formulaire_contact.js"></script>
+        <script src="../script_citations.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    </body>
+    
+    </html>

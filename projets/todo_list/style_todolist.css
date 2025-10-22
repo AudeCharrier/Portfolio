@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Helvetica','Segoe UI',   sans-serif;
+    font-size: 0.9rem;
+    text-align:justify;
+}
+
+main {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    width:100%;
+    margin:auto;
+}
+
+/********************** FORMULAIRE RENSEIGNER LA TACHE ******************************/
+
+form {
+    display:flex;
+    flex-direction:column;
+    width:40%;
+    margin:60px auto;
+    padding: 20px 40px;
+    background-color:rgba(0,0,0, 0.1);
+    border-radius:10px;
+    box-shadow:3px 3px 0px rgba(0,0,0);
+}
+
+form p, form label {
+    margin: 10px 10px 5px 10px;
+}
+input, select {
+    margin: 0 10px 15px 10px;
+    background-color:rgba(255,255,255);
+    min-height:40px;
+    border-radius:10px;
+    border:none;
+}
+
+#tâche {
+    width:75%;
+}
+#domaine, #durée, #deadline, #priorité {
+    width:30%;
+}
+
+.zone-submit {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+}
+#ajouter {
+    width:20%;
+    margin: 10px;
+    cursor:pointer;
+    border:1px solid black;
+    font-size:1.1rem;
+}
+#ajouter:hover {
+     background-color:rgb(212, 232, 250);
+}
+
+.erreur {
+    color:red;
+    font-style:italic;
+}
+
+/************************** ZONE DES TACHES ********************************/
+
+h1 {
+    font-size:2em;
+    text-align:center;
+    padding:20px;
+}
+
+#liste {
+    display:flex;
+    flex-direction:column;
+    width:40%;
+    margin:60px auto;
+    padding: 20px 40px;
+    background-color:rgb(212, 232, 250);
+    border-radius:10px;
+    box-shadow:3px 3px 0px rgba(0,0,0);
+}
+
+#liste p, #liste input, #liste button {
+    font-size:1.2em;
+    margin:5px ;
+}
+
+.box {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    margin:5px;
+    padding:10px;
+    background-color:rgba(255,255,255);
+    border-radius:10px;
+    color:black;
+}
+.box div {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+
+.checked {
+    text-decoration:line-through;
+}
+
+/*--------------------- "macaron" de couleur pour la priorité ---------------------*/
+
+.priorite::before {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right:5px;
+}
+
+.priorite-haute::before {
+    background-color:red;
+}   
+.priorite-moyenne::before {
+    background-color: orange;
+} 
+.priorite-basse::before {
+    background-color: yellow;
+}   
+
+/*---------------------- personnalisation des boutons modifier et supprimer ----------------------------*/
+
+.modifier, .supprimer {
+   cursor:pointer;
+   color:rgba(255,255,255);
+   font-size:1.3em;
+   text-align:center;
+   vertical-align:center;   /*  MARCHE PAS ?*/
+   padding:5px;
+   width:35px;
+   height:35px;
+   border-radius:50%;
+   border:none;
+}
+
+.modifier {
+    background-color:rgba(3, 160, 251, 0.7);
+}
+.supprimer {
+    background-color:rgba(251, 3, 3, 0.7);
+}
+
+/* je n'ai pas réussi à personnaliser la checkbox*/

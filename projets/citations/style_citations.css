@@ -1,0 +1,66 @@
+* {
+    margin : 0;
+    padding:0;
+}
+
+/************************************************************************/
+/***************************** ZONES ************************************/
+
+body {
+    font-family: 'Segoe UI', 'Trebuchet', 'Helvetica', sans-serif;
+    font-size: 1rem;
+    text-align:justify;
+}
+main {
+    color: rgb(0, 0, 0);
+    width:75%;
+    margin:auto;
+}
+section {
+    height:auto;
+    padding:50px 80px;
+    background-color:rgb(219, 225, 234);
+}
+
+/****************************************************************************/
+/********************** MISES EN FORME TEXTE GENERAL ************************/
+
+p {
+    line-height:1.6rem;
+    margin:10px 0;
+}
+
+/******************************************************************************/
+/************************** SECTION CITATIONS ********************************/
+
+.section-citations {
+    display:flex;
+    min-height:160px;
+    justify-content:center;
+    align-items:center;
+}
+
+.box-citations {
+    width:50%;
+    margin:auto;
+    opacity:0;
+    transition:opacity 0.5s ease;
+}
+.fade-in {
+    opacity:1;
+}
+.fade-out {
+    opacity:0
+}
+
+.phrase {
+    color:black;
+    font-size:1.8em;
+    font-style:italic;
+    text-align:center;
+}
+.auteur {
+    color:black;
+    font-size:1.3em;
+    text-align:right;
+}

@@ -1,0 +1,32 @@
+.galerie-photos {
+    width:50%;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    align-items:start;
+    margin:50px auto;
+}
+
+.galerie-photos img {
+    width: 100%;
+    height: auto;            /* garde les proportions naturelles */
+    display: block;          /*une image est inline par défaut, donc il y a un espace dessous comme pour une ligne de texte --> block pour éviter ça*/
+}
+
+.panoramique {
+    object-fit:contain;      /*ne pas rogner*/
+    grid-column:span 3;
+    max-height:120px;        /*bizarrement height:120px renvoie une hauteur de 270px d'après l'inspecteur...*/
+}
+.portrait {
+    grid-row: span 2;
+    object-fit: cover;       /* remplir la case, rognage possible*/
+    align-self: stretch;     /* étire la case à la même hauteur que les autres */
+}
+.paysage {
+    grid-column: span 1;     
+    grid-row:span 1;
+    object-fit: cover;       /*si besoin rogne pour ajsuter aux 4/3, sans déformer*/
+    aspect-ratio:4/3;
+}
+
