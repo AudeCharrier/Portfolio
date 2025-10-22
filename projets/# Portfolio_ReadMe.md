@@ -38,7 +38,7 @@ Affichage aléatoire et temporisé de citations inspirantes avec effet de fondu.
 ---
 
 ## Liens
-- [Voir Ce que j'ai appris dans ce portfolio](./pdf/Les_commandements_du_codeur.pdf)
+- [Voir Ce que j'ai appris dans ce portfolio](././pdf/Les_commandements_du_codeur.pdf)
 
 ---
 
@@ -48,4 +48,5 @@ Envie d'en savoir plus ? Intéressé.e par une alternance pour votre entreprise 
 - **LinkedIn** : [Aude-Charrier-devweb](https://www.linkedin.com/in/aude-charrier-devweb/)  
 
 - **GitHub** : [AudeCharrier](https://github.com/AudeCharrier/)
+
 
