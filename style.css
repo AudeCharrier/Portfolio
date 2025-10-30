@@ -432,6 +432,10 @@ MAIS flex + gap est plus pratique, semer des margin et padding peut créer des c
 
             /*---------------- section 2 parcours --------------*/
 
+/* pour plus de clarté j'ai choisi de paramétrer séparément chaque bloc de cadre ou de légende,
+quitte à répéter certaines propriétés, plutôt que de regrouper, faire des précisions particulières et
+chercher à plusieurs endroits pour modifier un bloc */
+    
 /* cadres futur dev-web*/
 
 .flex-futur {
@@ -535,7 +539,7 @@ MAIS flex + gap est plus pratique, semer des margin et padding peut créer des c
     justify-content:flex-end;
     align-items:center;
     width:100%;
-    margin-top:50px;
+    margin-top:-25px;
     margin-left:-5px;
     gap:0 20px;
 }
@@ -906,4 +910,5 @@ label {
     color:red;
     font-style:italic;
 }
+
 
