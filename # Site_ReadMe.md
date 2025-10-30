@@ -18,30 +18,30 @@ Il comporte les pages suivantes :
 
 Réaliser ce site "from scratch" était une évidence et me permet de présenter certains projets en contexte, comme précisé ci-dessous.
 
-**Avertissement** : Le site n'est pas encore responsive.
+**Avertissement** : Le site n'est pas encore responsive. La page A Propos est mieux optimisée sous Firefox que Chrome.
 
 ## Fonctionnalités
 - **Animations et transitions** sur certaines pages :
     → Toutes pages : boutons avec hover effect, `.cta`, lignes 202 - 219 `style.css`
     → Page Accueil:  animation keyframes `.texte-presentation` `.photo-credits`, lignes 268 - 304 `style.css`
     → Page A Propos: animation keyframes `.texte-glisse`, lignes 418 - 431 `style.css`
-                    transition `.soft-perso::after`(et autres), lignes 705 - 757 `style.css` + fichier `script_a_propos.js`
-    → Page Projets : hover effect `.grid-projet a img`, lignes 793 - 797 `style.css`
+                    transition `.soft-perso::after`(et autres), lignes 737 - 789 `style.css` + fichier `script_a_propos.js`
+    → Page Projets : hover effect `.grid-projet a img`, lignes 825 - 829 `style.css`
 
 - **Intégration de projets** : générateur aléatoire de citations, formulaire de contact
 - **Accès aux projets** : Citations, ToDoList, Galerie, Formulaire, via leurs dépôts GitHub
 
-- Amélioration future : rendre le site responsive pour petits écrans
+- Améliorations futures : rendre le site responsive pour petits écrans, ajout d'une checkbox "Données personnelles" sur la page de Contact, mise en forme du titre du site
 
 ## Technologies utilisées
 - **HTML** : structuration des pages, sections sémantiques, éléments structurants, formulaires
 - **CSS** : mise en page, couleurs, typographies, animations, transitions, utilisation de **Flexbox et Grid** pour la structure et l'alignement des éléments  
 - **JavaScript** :  
-    → Événements (submit, click, mouseover, input…)  
-    → Validation de formulaires et feedback utilisateur pour une expérience fluide  
-    → Gestion du temps et des séquences pour certaines animations et contenus interactifs  
-    → Création et intégration dynamique du générateur de citations dans le site  
-    → Accès aux autres projets (ToDoList, Galerie, Formulaire) via liens vers leurs dépôts GitHub
+    - Événements (submit, click, mouseover, input…)  
+    - Validation de formulaires et feedback utilisateur pour une expérience fluide  
+    - Gestion du temps et des séquences pour certaines animations et contenus interactifs  
+    - Création et intégration dynamique du générateur de citations dans le site  
+    - Accès aux autres projets (ToDoList, Galerie, Formulaire) via liens vers leurs dépôts GitHub
 
 ## Liens
 - [Voir la démo](https://audecharrier.github.io/Portfolio/) 
@@ -53,4 +53,5 @@ Envie d'en savoir plus ? Intéressé.e par une alternance pour votre entreprise 
 - **Email** : [charrier.aude@gmail.com](mailto:charrier.aude@gmail.com)  
 - **LinkedIn** : [Aude-Charrier-devweb](https://www.linkedin.com/in/aude-charrier-devweb/)  
 - **GitHub** : [AudeCharrier](https://github.com/AudeCharrier/)
+
 
