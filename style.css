@@ -355,7 +355,7 @@ a {
             width: 40%;                     /*pour rapprocher les 2 "colonnes" <li> ET forcer le retour ligne après le 2e li*/
             gap:0 5px;                      /*espace entre l'icone et le texte*/
         }
-        .orga ul li.diplome .sous-ligne {
+        .sous-ligne {
             display:block;
             position:relative;
             left:30px;
@@ -443,7 +443,6 @@ MAIS flex + gap est plus pratique, semer des margin et padding peut créer des c
     margin-top:30px;
     gap:0 20px;
 }
-
     .legende-dev-web {
         width:150px;
         text-align:center;
@@ -456,14 +455,28 @@ MAIS flex + gap est plus pratique, semer des margin et padding peut créer des c
         background-color:rgb(217, 249, 217);
         z-index:1;
     }
-    .alternance {
+    .alternance-web {
         width:170px;
         height:30px;
         border-radius:30px;
         background-color:rgba(217,249,217);
         z-index:1;                        /*même niveau que le cercle. si indéfini : les traits passent au-dessus*/
     }
-
+    .cda-rncp {
+        width:50px;
+        height:50px;
+        border-radius:50px;
+        background-color:rgb(217, 249, 217);
+        z-index:1;
+    }
+    .alternance-cda {
+        width:170px;
+        height:30px;
+        border-radius:30px;
+        background-color:rgba(217,249,217);
+        z-index:1;    
+    }
+        
 /*traits chronologiques*/
 
     .dev-web-rncp::before {                /*trait vertical vers le bas pointillé*/
@@ -471,7 +484,7 @@ MAIS flex + gap est plus pratique, semer des margin et padding peut créer des c
         position: absolute;
         top: 100%;                         /*démarre en bas du cercle*/
         left:50%;                          /*moitié du diamètre en horiz*/
-        height:150px;
+        height:160px;
         width: 0px;
         border-left: 3px dashed black;   /*pour mettre un style dashed j'utilise border, et pour éviter un décalage si on a border+width, je mets width à 0*/
         transform:translateX(-50%);        /*centrage horiz. sinon il démarre juste après le centre, et donc c'est décentré*/
@@ -483,7 +496,7 @@ MAIS flex + gap est plus pratique, semer des margin et padding peut créer des c
         top: 50%;                          /*moitié du diamètre en vertical*/
         left:100%;                         /*démarre à droite du cercle*/
         height:0px;
-        width: 450px;
+        width: 520px;
         border-top: 3px dashed black;   /*pour mettre un style dashed j'utilise border, et pour éviter un décalage si on a border+width, je mets width à 0*/
         transform:translateY(-50%);       /*centrage vertical sinon il démarre juste après le centre, et donc c'est décentré*/
         z-index:0;
@@ -491,12 +504,28 @@ MAIS flex + gap est plus pratique, semer des margin et padding peut créer des c
 
 /* legendes*/ 
 
-.legende-alternance {
-    text-align:center;
-    width:170px;
-    margin-top:-10px;
-    margin-left:240px;                    /* legend-dev-web + gap + cercle + gap */
+.flex-legendes-futur {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:flex-start;
+    width:430px;                          /* alternance + gap + cercle + gap + alternance soit 170+20+50+20+170 */
+    margin-top:-20px;
+    margin-left:240px;                    /* legende-dev-web + gap + cercle + gap soit 150+20+50+20 */
+    gap:0 20px;
 }
+    .legende-alternance {
+        text-align:center;
+        width:170px;  
+    }
+    .legende-cda-rncp {
+        text-align:center;
+        width:170px;
+    }
+    .legende-alternance-cda {
+        text-align:center;
+        width:170px;
+    }
 
 /* cadres période coaching et caisse*/
 
@@ -510,7 +539,6 @@ MAIS flex + gap est plus pratique, semer des margin et padding peut créer des c
     margin-left:-5px;
     gap:0 20px;
 }
-
     .caisse-proximite, .caisse-decathlon {
         width:110px;
         height:30px;
@@ -878,3 +906,4 @@ label {
     color:red;
     font-style:italic;
 }
+
