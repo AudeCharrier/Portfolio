@@ -24,8 +24,8 @@ Réaliser ce site "from scratch" était une évidence et me permet de présenter
 - **Animations et transitions** sur certaines pages :
     - Toutes pages : boutons avec hover effect, `.cta`, lignes 202 - 219 `style.css`
     - Page Accueil:  animation keyframes `.texte-presentation` `.photo-credits`, lignes 268 - 304 `style.css`
-    - Page A Propos: animation keyframes `.texte-glisse`, lignes 418 - 431 `style.css`
-                    transition `.soft-perso::after`(et autres), lignes 737 - 789 `style.css` + fichier `script_a_propos.js`
+    - Page A Propos: - animation keyframes `.texte-glisse`, lignes 418 - 431 `style.css`
+                    - transition `.soft-perso::after`(et autres), lignes 737 - 789 `style.css` + fichier `script_a_propos.js`
     - Page Projets : hover effect `.grid-projet a img`, lignes 825 - 829 `style.css`
 
 - **Intégration de projets** : générateur aléatoire de citations, formulaire de contact
@@ -53,6 +53,7 @@ Envie d'en savoir plus ? Intéressé.e par une alternance pour votre entreprise 
 - **Email** : [charrier.aude@gmail.com](mailto:charrier.aude@gmail.com)  
 - **LinkedIn** : [Aude-Charrier-devweb](https://www.linkedin.com/in/aude-charrier-devweb/)  
 - **GitHub** : [AudeCharrier](https://github.com/AudeCharrier/)
+
 
 
 
