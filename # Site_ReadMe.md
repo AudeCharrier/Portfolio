@@ -32,8 +32,8 @@ Réaliser ce site "from scratch" était une évidence et me permet de présenter
 - **Accès aux projets** : Citations, ToDoList, Galerie, Formulaire, via leurs dépôts GitHub
 
 - **Améliorations futures** :
-- rendre le site responsive pour petits écrans
-- ajout d'une checkbox "Données perosnnelles" sur le formulaire de contact
+   - rendre le site responsive pour petits écrans
+   - ajout d'une checkbox "Données perosnnelles" sur le formulaire de contact
 - mise en forme du titre général du site
 
 ## Technologies utilisées
@@ -56,6 +56,7 @@ Envie d'en savoir plus ? Intéressé.e par une alternance pour votre entreprise 
 - **Email** : [charrier.aude@gmail.com](mailto:charrier.aude@gmail.com)  
 - **LinkedIn** : [Aude-Charrier-devweb](https://www.linkedin.com/in/aude-charrier-devweb/)  
 - **GitHub** : [AudeCharrier](https://github.com/AudeCharrier/)
+
 
 
 
